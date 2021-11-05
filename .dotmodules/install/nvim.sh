@@ -11,8 +11,8 @@ installing() {
 }
 
 installing "neovim"
-cd /tmp
-curl -LO https://github.com/neovim/neovim/releases/download/v0.5.0/nvim-linux64.tar.gz
+cd ~
+curl -LO https://github.com/neovim/neovim/releases/download/v0.5.1/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
 mkdir -p ~/.local
 rsync -a nvim-linux64/* ~/.local/
