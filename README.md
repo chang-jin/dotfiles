@@ -1,16 +1,16 @@
-# Dotfiles
+# Dotfiles (forked from jaywonchung/dotfiles)
 
 ## Installing dotfiles on a new system
 
 Initialize the dotfile management environment.
 
 ```bash
-git clone --bare git@github.com:jaywonchung/dotfiles.git $HOME/.dotfiles
+git clone --bare git@github.com:chang-jin/dotfiles.git $HOME/.dotfiles
 git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout master
 source .dotmodules/init.sh
 ```
 
-**Warning.** My machines have SSH authentication set up with Github, so cloning with `git@github.com:jaywonchung/dotfiles.git` works. Others will have to clone with the URL `https://github.com/jaywonchung/dotfiles.git`.
+**Warning.** My machines have SSH authentication set up with Github, so cloning with `git@github.com:chang-jin/dotfiles.git` works. Others will have to clone with the URL `https://github.com/chang-jin/dotfiles.git`.
 
 Then checkout the desired system branch. For example, install the `ubuntu-server` settings with:
 
@@ -24,11 +24,6 @@ Do a quick backup to a separate directory, or just remove them.
 Finally, run the installation script.
 ```bash
 zsh ~/.dotmodules/install/all.sh
-```
-
-Or just to everything at once. Very secure, obviously.
-```bash
-source <(curl https://raw.githubusercontent.com/jaywonchung/dotfiles/master/install.sh)
 ```
 
 Restarting the shell will finish the installation.
