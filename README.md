@@ -18,6 +18,11 @@ Then checkout the desired system branch. For example, install the `ubuntu-server
 dotfiles checkout ubuntu-server
 ```
 
+```bash
+dotfiles checkout macbook
+```
+
+
 You may run into errors when checking out a branch due to existing dotfiles in your home directory.
 Do a quick backup to a separate directory, or just remove them.
 
