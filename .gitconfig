@@ -1,6 +1,6 @@
 [user]
-  email = jwnchung@umich.edu
-  name = Jae-Won Chung
+  email = creatively.jeong@gmail.com
+  name = Changjin Jeong
 [alias]
   last = log -1 HEAD
   unstage = reset HEAD --
