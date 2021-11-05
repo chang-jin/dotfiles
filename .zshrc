@@ -12,10 +12,10 @@ fi
 # Zsh and oh-my-zsh configs
 #-------------------------------------------------------------------
 # A kind reminder for others using my dotfiles
-JW_USERS=(jaywonchung jwnchung JWC)
+CJ_USERS=(changjin)
 if [[ ! "${JW_USERS[*]}" =~ "$USER" ]]; then
   # Username is not Jae-Won's
-  if [[ "$(git config --global --get user.name)" = "Jae-Won Chung" ]]; then
+  if [[ "$(git config --global --get user.name)" = "Changjin Jeong" ]]; then
     # But git username is Jae-Won
     echo Hey, $USER. Remember to run git config with your idendity!
   fi
